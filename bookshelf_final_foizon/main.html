@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KiddiePod</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Stars -->
+  <div class="stars" id="stars"></div>
+
+  <!-- Planets -->
+  <div class="planet planet-1"><div class="planet-ring"></div></div>
+  <div class="planet planet-2"></div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="logo">KiddiePod</div>
+  </header>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KiddiePod</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Stars -->
+  <div class="stars" id="stars"></div>
+
+  <!-- Planets -->
+  <div class="planet planet-1"><div class="planet-ring"></div></div>
+  <div class="planet planet-2"></div>
+
+ 
+
+  <!--PAGE 3 — BOOKSHELF-->
+  <div id="page-shelf" class="page">
+    <div class="shelf-page-main">
+
+      <h1 class="page-title"> Pick Your Space Story!</h1>
+      <p class="page-subtitle">Choose a book below and blast off on a reading adventure.</p>
+
+      <div class="shelf-wrap">
+        <div class="books-grid">
+
+          <!-- 1. Goodnight Spaceman -->
+          <div class="book-card"
+               style="--spine-color:#64b5f6;--cover-bg:#0d2b5e;--badge-bg:#bbdefb;--badge-color:#0a2040;--series-color:#64b5f6;"
+               onclick="openBook('goodnight')">
+            <span class="genre-badge">Bedtime</span>
+            <div class="book-cover">
+              <img src="goodnightspaceman.jpg" alt="Goodnight Spaceman" onerror="this.style.display='none';this.parentElement.dataset.fallback='👻🌙';">
+            </div>
+            <div class="book-info">
+              <div class="book-series">Picture Book</div>
+              <div class="book-title">Goodnight Spaceman</div>
+              <div class="book-author">by Michelle Robinson</div>
+              <div class="book-desc">"Wave goodnight to the stars and drift off to sleep among the planets!"</div>
+            </div>
+          </div>
+
+          <!-- 2. Roaring Rockets -->
+          <div class="book-card"
+               style="--spine-color:#ef9a9a;--cover-bg:#3e0000;--badge-bg:#ffcdd2;--badge-color:#4a0000;--series-color:#ef9a9a;"
+               onclick="openBook('rockets')">
+            <span class="genre-badge">Science</span>
+            <div class="book-cover">
+              <img src="rockets.jpg" alt="Roaring Rockets" onerror="this.style.display='none';">
+            </div>
+            <div class="book-info">
+              <div class="book-series">Amazing Machines</div>
+              <div class="book-title">Roaring Rockets</div>
+              <div class="book-author">by Tony Mitton</div>
+              <div class="book-desc">"Strap in tight — rockets are roaring and we're zooming into outer space!"</div>
+            </div>
+          </div>
+
+          <!-- 3. Peter Pan -->
+          <div class="book-card"
+               style="--spine-color:#80cbc4;--cover-bg:#00251a;--badge-bg:#b2dfdb;--badge-color:#00251a;--series-color:#80cbc4;"
+               onclick="openBook('peterpan')">
+            <span class="genre-badge">Classic</span>
+            <div class="book-cover">
+              <img src="peterpan.png" alt="Peter Pan" onerror="this.style.display='none';">
+            </div>
+            <div class="book-info">
+              <div class="book-series">Classic Tale</div>
+              <div class="book-title">Peter Pan</div>
+              <div class="book-author">by J. M. Barrie</div>
+              <div class="book-desc">"Second star to the right — fly with Peter to the magical Neverland!"</div>
+            </div>
+          </div>
+
+          <!-- 4. The Little Prince -->
+          <div class="book-card"
+               style="--spine-color:#ffb74d;--cover-bg:#3e1a00;--badge-bg:#ffe0b2;--badge-color:#3e1a00;--series-color:#ffb74d;"
+               onclick="openBook('littleprince')">
+            <span class="genre-badge">Classic</span>
+            <div class="book-cover">
+              <img src="little prince.jpg" alt="The Little Prince" onerror="this.style.display='none';">
+            </div>
+            <div class="book-info">
+              <div class="book-series">Classic Tale</div>
+              <div class="book-title">The Little Prince</div>
+              <div class="book-author">by Antoine de Saint-Exupéry</div>
+              <div class="book-desc">"A tiny prince travels the universe — and teaches us what truly matters most!"</div>
+            </div>
+          </div>
+
+        </div>
+        <div class="shelf-plank"></div>
+      </div>
+    </div>
+    <footer><p>© 2026 Foizon</p></footer>
+  </div>
